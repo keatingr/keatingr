@@ -114,7 +114,7 @@ Boundaries include:
 
 ### Product and AI Systems
 
-- RAG-backed user experiences with controlled input behavior, and per-user memory collections..
+- RAG-backed user experiences with controlled input behavior, and per-user memory collections.
 - Identity and mobile integration through Stytch OAuth/session JWTs, Apple Sign-In, APNS token management, and username/device registration.
 - Supporting services include connection pools, model inference queues, Redis-backed context, history/rate limits, Postgres persistence, ASR WebSocket proxying, middleware, origin controls, and admin dashboards.
 
@@ -125,10 +125,6 @@ Boundaries include:
 - Production documentation: iOS socket contracts, auth flows, Nginx/ASR setup, and security audit notes are documented for handoff and operations.
 - Admin UI: multiple frontend tabs support human-in-the-loop review, operational workflows, and customer interaction management.
 
-### Security
-Extensive AWS security implementation layered approach from netsec to persistence hygiene and deep learning model safety.
-
-Maintained security posture sufficient to receive a 100/100 rating for publicly exposed cloud endpoint assets at securityscorecard.com
 
 ## Execution, Partnership, and Communication
 
@@ -170,6 +166,6 @@ Past institutional clients include Zalicus, Partners Healthcare, John Hancock Fi
 
 The tradeoff was slower initial product velocity. The benefit was better control over grounding, sensitive-domain deployment requirements, and model efficiency. With new controls and customization we were able to shift away from framework dependencies, performance bleed and runaway spend on heavier agent layers.
 
-Furthermore, debugging and evaluation of probabilistic control flows became easier to trace and characterize "why does this end-to-end version seem better or worse, when users are voicing strong opinions and can't cite specifics". This was key enabement for user trust.
+Furthermore, debugging and evaluation of probabilistic control flows became easier to trace and characterize "why does this end-to-end version seem better or worse, when users are voicing strong opinions and can't cite specifics". This was key enablement for user trust.
 
 </details>
