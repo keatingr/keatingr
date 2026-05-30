@@ -63,10 +63,10 @@ Auth + Gateway Layer
 
 #### Deployment model
 
-Knowfold is designed around a hybrid deployment model:
+Knowfold is designed around a microservices architecture with heavy GPU usage:
 
 * Heterogeneous model stack with the following roles: instruct, reasoning, ASR, OCR, embedding, reranking, extraction, and semantic document segmentation
-* Separate tier of models for sensitive data, controlled routing
+* Separate tier for sensitive data, controlled routing
 * Cloud models routed in an escalation ladder where cost per performance matters
 
 ## Production ASR
