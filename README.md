@@ -118,7 +118,7 @@ Boundaries include:
 
 ## xLLM Model Aggregator
 
-**xLLM** is a horizontally scalable **FastAPI + PyTorch** inference node with cloud frontier model and on-prem hybrid hosting of multiple instruct, reasoning generative models, intent classification, retrieval reranking, claim extraction and structured output formatting. Paid API models have balance verifications with circuit breakers to stay ahead of costly oversights or non-deterministic agentic calls, one of many control layers and guardrails for systems with increased agency.
+**xLLM** is a horizontally scalable inference node with cloud frontier model and on-prem hybrid hosting of multiple instruct, reasoning generative models, intent classification, retrieval reranking, claim extraction and structured output formatting. Paid API models have balance verifications with circuit breakers to stay ahead of costly oversights or non-deterministic agentic calls, one of many control layers and guardrails for systems with increased agency.
 
 **Performance Highlights:**
 - Production patterns: bounded async queues per modality, saturation signaling, GPU work off the event loop, deploy + prefetch tooling; API versioning; process isolation; per model performance tuning for context sizes, embedding dimensions, long-document use cases
