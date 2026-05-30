@@ -2,7 +2,7 @@
 
 Principal AI/ML Engineer and hands-on technical leader specializing in production GenAI and traceable systems. Deep experience building end-to-end solutions with LLMs, RAG, computer vision, multi-model routing, evidence attribution, and agentic primitives.
 
-## Recent Work
+# Recent Work
 
 **Knowfold**:
 - Compliance and Security under GenAI and non-deterministic systems
@@ -118,13 +118,12 @@ Boundaries include:
 - Identity and mobile integration through Stytch OAuth/session JWTs, Apple Sign-In, APNS token management, and username/device registration.
 - Supporting services include connection pools, model inference queues, Redis-backed context, history/rate limits, Postgres persistence, ASR WebSocket proxying, middleware, origin controls, and admin dashboards.
 
-### Engineering Scale
+## Engineering Maturity
 
-Scale & engineering maturity signals
-Heavy async usage — database, Redis, HTTP clients, socket handlers, and background workers are asyncio-native.
-Broad test surface — socket event contracts, auth flows, RAG retrieval, LLM queue behavior, middleware, and API routes.
-Production documentation — iOS socket contracts, auth flows, Nginx/ASR setup, security audit documentation.
-Multiple administrative frontend tabs for managing human-in-the-loop dashboards and customer interaction.
+- Async-first backend: database access, Redis, HTTP clients, socket handlers, and background workers use asyncio-native service paths.
+- Broad test coverage: socket event contracts, auth flows, RAG retrieval, LLM queue behavior, middleware, and API routes.
+- Production documentation: iOS socket contracts, auth flows, Nginx/ASR setup, and security audit notes are documented for handoff and operations.
+- Admin UI: multiple frontend tabs support human-in-the-loop review, operational workflows, and customer interaction management.
 
 ### Security
 Extensive AWS security implementation layered approach from netsec to persistence hygiene and deep learning model safety.
