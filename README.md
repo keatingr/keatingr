@@ -161,8 +161,5 @@ Boundaries include:
 <details>
 <summary>(expand) Professional work includes guiding data scientists...</summary>
 ... in production environments, while consulting for startup CEOs and CTOs in targeted R&D engagements. This included computer vision model performance improvement, pipeline modernization, and upgrading legacy video analysis workflows from frame/time-series heuristics toward deep-learning-native approaches. Related MLOps and model evaluation work was also performed, developing platform architectures and documenting deployments, troubleshooting and training staff on infrastructure.
-
-Past institutional clients include Zalicus, Partners Healthcare, John Hancock Financial, and U.S. Department of Defense.
-
 </details>
 
